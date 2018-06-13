@@ -66,7 +66,7 @@
   var denominations = [1, 2, 3]; //length = 3
   var changeAmount = 4;
 
-  function coinPermutations(total){
+  function coinPermutations(changeAmount){
 
       var cLen = denominations.length,
       matrix = Array(cLen),
